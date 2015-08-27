@@ -25,6 +25,8 @@
 		96035E441B8E816000D3400F /* BasicFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96035E431B8E816000D3400F /* BasicFlipViewController.m */; };
 		96035E471B8E81A400D3400F /* BasicPageCurlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96035E461B8E81A400D3400F /* BasicPageCurlViewController.m */; };
 		96035E4A1B8E882300D3400F /* BaseModalTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96035E491B8E882300D3400F /* BaseModalTransitionViewController.m */; };
+		96035E4D1B8EB63D00D3400F /* ModalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96035E4C1B8EB63D00D3400F /* ModalPageViewController.m */; };
+		96035E501B8EB66A00D3400F /* ModalFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96035E4F1B8EB66A00D3400F /* ModalFormViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,10 @@
 		96035E461B8E81A400D3400F /* BasicPageCurlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPageCurlViewController.m; sourceTree = "<group>"; };
 		96035E481B8E882300D3400F /* BaseModalTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModalTransitionViewController.h; sourceTree = "<group>"; };
 		96035E491B8E882300D3400F /* BaseModalTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModalTransitionViewController.m; sourceTree = "<group>"; };
+		96035E4B1B8EB63D00D3400F /* ModalPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalPageViewController.h; sourceTree = "<group>"; };
+		96035E4C1B8EB63D00D3400F /* ModalPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalPageViewController.m; sourceTree = "<group>"; };
+		96035E4E1B8EB66A00D3400F /* ModalFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalFormViewController.h; sourceTree = "<group>"; };
+		96035E4F1B8EB66A00D3400F /* ModalFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalFormViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +181,10 @@
 				96035E431B8E816000D3400F /* BasicFlipViewController.m */,
 				96035E451B8E81A400D3400F /* BasicPageCurlViewController.h */,
 				96035E461B8E81A400D3400F /* BasicPageCurlViewController.m */,
+				96035E4B1B8EB63D00D3400F /* ModalPageViewController.h */,
+				96035E4C1B8EB63D00D3400F /* ModalPageViewController.m */,
+				96035E4E1B8EB66A00D3400F /* ModalFormViewController.h */,
+				96035E4F1B8EB66A00D3400F /* ModalFormViewController.m */,
 			);
 			name = BasicTransitions;
 			sourceTree = "<group>";
@@ -290,9 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96035E4D1B8EB63D00D3400F /* ModalPageViewController.m in Sources */,
 				96035E471B8E81A400D3400F /* BasicPageCurlViewController.m in Sources */,
 				96035E441B8E816000D3400F /* BasicFlipViewController.m in Sources */,
 				96035E081B8E5A7B00D3400F /* AppDelegate.m in Sources */,
+				96035E501B8EB66A00D3400F /* ModalFormViewController.m in Sources */,
 				96035E3B1B8E7DEA00D3400F /* BaseTransitionViewController.m in Sources */,
 				96035E321B8E786100D3400F /* TransitionItem.m in Sources */,
 				96035E0B1B8E5A7B00D3400F /* MasterViewController.m in Sources */,
@@ -500,6 +512,7 @@
 				96035E271B8E5A7B00D3400F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96035E281B8E5A7B00D3400F /* Build configuration list for PBXNativeTarget "FoxAnimationTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +521,7 @@
 				96035E2A1B8E5A7B00D3400F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -37,7 +37,9 @@
                    [TransitionItem itemWithName:@"Basic Modal" andController:@"BasicModalViewController"],
                    [TransitionItem itemWithName:@"Basic Cross Dissolve" andController:@"BasicCrossDissolveViewController"],
                    [TransitionItem itemWithName:@"Basic Flip" andController:@"BasicFlipViewController"],
-                   [TransitionItem itemWithName:@"Basic Curl" andController:@"BasicPageCurlViewController"]
+                   [TransitionItem itemWithName:@"Basic Curl" andController:@"BasicPageCurlViewController"],
+                   [TransitionItem itemWithName:@"Modal Page" andController:@"ModalPageViewController"],
+                   [TransitionItem itemWithName:@"Modal Form" andController:@"ModalFormViewController"]
                    ];
         
     }
