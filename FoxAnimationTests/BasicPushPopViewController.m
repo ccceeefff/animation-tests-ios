@@ -24,9 +24,9 @@
     return @"This transition pushes a new view coming in from the right. Exiting that view will pop that in the reverse direction.";
 }
 
-- (void)present:(id)sender
+- (void)presentCharacter:(BasicItem *)character
 {
-    UIViewController *controller = [self controllerToPresent];
+    UIViewController *controller = [self controllerToPresent:character];
     [self.navigationController pushViewController:controller animated:YES];
 }
 

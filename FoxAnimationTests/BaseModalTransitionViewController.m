@@ -14,9 +14,9 @@
 
 @implementation BaseModalTransitionViewController
 
-- (UIViewController *)controllerToPresent
+- (UIViewController *)controllerToPresent:(BasicItem *)character
 {
-    return [[UINavigationController alloc] initWithRootViewController:[super controllerToPresent]];
+    return [[UINavigationController alloc] initWithRootViewController:[super controllerToPresent:character]];
 }
 
 @end

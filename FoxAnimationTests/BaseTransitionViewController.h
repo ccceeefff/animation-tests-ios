@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseTransitionViewController : UIViewController
+#import "CharacterListTableViewController.h"
+
+@interface BaseTransitionViewController : CharacterListTableViewController
 
 - (NSString *)transitionName;
 - (NSString *)transitionDescription;
 - (void)present:(id)sender;
-- (UIViewController *)controllerToPresent;
+- (UIViewController *)controllerToPresent:(BasicItem *)character;
 
 @end

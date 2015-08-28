@@ -10,41 +10,18 @@
 
 @interface ReturnViewController ()
 
-@property (nonatomic, strong) UILabel *descriptionLabel;
-
 @end
 
 @implementation ReturnViewController
 
-- (void)loadView
-{
-    UIView *view = [UIView new];
-    view.backgroundColor = [UIColor whiteColor];
-    self.view = view;
-    
-    UILabel *label = [UILabel new];
-    label.textAlignment = NSTextAlignmentCenter;
-    label.textColor = [UIColor blackColor];
-    label.numberOfLines = 0;
-    [view addSubview:label];
-    self.descriptionLabel = label;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"Presented";
+    self.title = @"Character";
     
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismiss:)];
-    [self.view addGestureRecognizer:tap];
-    
-    self.descriptionLabel.text = @"Tap anywhere to exit.";
-}
-
-- (void)viewWillLayoutSubviews
-{
-    [super viewWillLayoutSubviews];
-    self.descriptionLabel.frame = CGRectInset(self.view.bounds, 40, 40);
+    if(self.presentingViewController){
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Dismiss" style:UIBarButtonItemStyleDone target:self action:@selector(dismiss:)];
+    }
 }
 
 - (void)dismiss:(id)sender

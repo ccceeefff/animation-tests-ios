@@ -11,25 +11,9 @@
 
 @interface BaseTransitionViewController ()
 
-@property (nonatomic, strong) UILabel *descriptionLabel;
-
 @end
 
 @implementation BaseTransitionViewController
-
-- (void)loadView
-{
-    UIView *view = [UIView new];
-    view.backgroundColor = [UIColor whiteColor];
-    self.view = view;
-    
-    UILabel *label = [UILabel new];
-    label.textAlignment = NSTextAlignmentCenter;
-    label.textColor = [UIColor blackColor];
-    label.numberOfLines = 0;
-    [view addSubview:label];
-    self.descriptionLabel = label;
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -41,13 +25,11 @@
                                                                               style:UIBarButtonItemStylePlain
                                                                              target:self
                                                                              action:@selector(present:)];
-    self.descriptionLabel.text = [self transitionDescription];
 }
 
 - (void)viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
-    self.descriptionLabel.frame = CGRectInset(self.view.bounds, 40, 40);
 }
 
 # pragma mark - Abstract Methods
@@ -69,9 +51,9 @@
     
 }
 
-- (UIViewController *)controllerToPresent
+- (UIViewController *)controllerToPresent:(BasicItem *)character
 {
-    return [ReturnViewController new];
+    return [ReturnViewController controllerWithCharacter:character];
 }
 
 @end

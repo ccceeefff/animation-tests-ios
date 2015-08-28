@@ -24,9 +24,9 @@
     return @"This transition cross dissolves to and from a presented view.";
 }
 
-- (void)present:(id)sender
+- (void)presentCharacter:(BasicItem *)character
 {
-    UIViewController *controller = [self controllerToPresent];
+    UIViewController *controller = [self controllerToPresent:character];
     controller.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     [self presentViewController:controller animated:YES completion:nil];
 }

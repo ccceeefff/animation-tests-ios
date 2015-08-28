@@ -24,9 +24,9 @@
     return @"This transition pushes a new view modally coming in from the bottom. Exiting that view will dismiss that in the reverse direction. On an iPad, a page does not cover the entire screen.";
 }
 
-- (void)present:(id)sender
+- (void)presentCharacter:(BasicItem *)character
 {
-    UIViewController *controller = [self controllerToPresent];
+    UIViewController *controller = [self controllerToPresent:character];
     controller.modalPresentationStyle = UIModalPresentationPageSheet;
     [self presentViewController:controller animated:YES completion:nil];
 }

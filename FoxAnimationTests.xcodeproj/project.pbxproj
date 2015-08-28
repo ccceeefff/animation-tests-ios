@@ -27,6 +27,14 @@
 		96035E4A1B8E882300D3400F /* BaseModalTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96035E491B8E882300D3400F /* BaseModalTransitionViewController.m */; };
 		96035E4D1B8EB63D00D3400F /* ModalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96035E4C1B8EB63D00D3400F /* ModalPageViewController.m */; };
 		96035E501B8EB66A00D3400F /* ModalFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96035E4F1B8EB66A00D3400F /* ModalFormViewController.m */; };
+		9688F98A1B90DAF2000B2A2E /* BasicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9688F9891B90DAF2000B2A2E /* BasicItem.m */; };
+		9688F98E1B90DD14000B2A2E /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9688F98D1B90DD14000B2A2E /* UIColor+HexColor.m */; };
+		9688F9921B90E205000B2A2E /* CharacterListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9688F9911B90E205000B2A2E /* CharacterListTableViewController.m */; };
+		9688F9961B90E61C000B2A2E /* CharacterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9688F9941B90E61C000B2A2E /* CharacterTableViewCell.m */; };
+		9688F9971B90E61C000B2A2E /* CharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9688F9951B90E61C000B2A2E /* CharacterTableViewCell.xib */; };
+		9688F99B1B90EA77000B2A2E /* CharacterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9688F9991B90EA77000B2A2E /* CharacterDetailViewController.m */; };
+		9688F99C1B90EA77000B2A2E /* CharacterDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9688F99A1B90EA77000B2A2E /* CharacterDetailViewController.xib */; };
+		C9318168E8E02E6998C00BFE /* libPods-FoxAnimationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDC7C8FF3EC55D529A07F03 /* libPods-FoxAnimationTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		148C710106D912AA5522242F /* Pods-FoxAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoxAnimationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoxAnimationTests/Pods-FoxAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DDC7C8FF3EC55D529A07F03 /* libPods-FoxAnimationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoxAnimationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96035DFF1B8E5A7B00D3400F /* FoxAnimationTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxAnimationTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96035E031B8E5A7B00D3400F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96035E041B8E5A7B00D3400F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,6 +89,19 @@
 		96035E4C1B8EB63D00D3400F /* ModalPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalPageViewController.m; sourceTree = "<group>"; };
 		96035E4E1B8EB66A00D3400F /* ModalFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalFormViewController.h; sourceTree = "<group>"; };
 		96035E4F1B8EB66A00D3400F /* ModalFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalFormViewController.m; sourceTree = "<group>"; };
+		9688F9881B90DAF2000B2A2E /* BasicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicItem.h; sourceTree = "<group>"; };
+		9688F9891B90DAF2000B2A2E /* BasicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicItem.m; sourceTree = "<group>"; };
+		9688F98C1B90DD14000B2A2E /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		9688F98D1B90DD14000B2A2E /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		9688F9901B90E205000B2A2E /* CharacterListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterListTableViewController.h; sourceTree = "<group>"; };
+		9688F9911B90E205000B2A2E /* CharacterListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterListTableViewController.m; sourceTree = "<group>"; };
+		9688F9931B90E61C000B2A2E /* CharacterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTableViewCell.h; sourceTree = "<group>"; };
+		9688F9941B90E61C000B2A2E /* CharacterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTableViewCell.m; sourceTree = "<group>"; };
+		9688F9951B90E61C000B2A2E /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterTableViewCell.xib; sourceTree = "<group>"; };
+		9688F9981B90EA77000B2A2E /* CharacterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterDetailViewController.h; sourceTree = "<group>"; };
+		9688F9991B90EA77000B2A2E /* CharacterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterDetailViewController.m; sourceTree = "<group>"; };
+		9688F99A1B90EA77000B2A2E /* CharacterDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterDetailViewController.xib; sourceTree = "<group>"; };
+		B9587EAA75540C952161DBA5 /* Pods-FoxAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoxAnimationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoxAnimationTests/Pods-FoxAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9318168E8E02E6998C00BFE /* libPods-FoxAnimationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +129,8 @@
 				96035E011B8E5A7B00D3400F /* FoxAnimationTests */,
 				96035E1E1B8E5A7B00D3400F /* FoxAnimationTestsTests */,
 				96035E001B8E5A7B00D3400F /* Products */,
+				F2B6F72C1162F07A617F4392 /* Pods */,
+				A3ADC37AE7EA08950EF61921 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +146,8 @@
 		96035E011B8E5A7B00D3400F /* FoxAnimationTests */ = {
 			isa = PBXGroup;
 			children = (
+				9688F98F1B90E1D3000B2A2E /* Character */,
+				9688F98B1B90DCE1000B2A2E /* Categories */,
 				96035E2C1B8E77F000D3400F /* DataSource */,
 				96035E2B1B8E5E1B00D3400F /* BasicTransitions */,
 				96035E061B8E5A7B00D3400F /* AppDelegate.h */,
@@ -196,8 +224,51 @@
 				96035E2E1B8E782800D3400F /* TransitionListDataSource.m */,
 				96035E301B8E786100D3400F /* TransitionItem.h */,
 				96035E311B8E786100D3400F /* TransitionItem.m */,
+				9688F9881B90DAF2000B2A2E /* BasicItem.h */,
+				9688F9891B90DAF2000B2A2E /* BasicItem.m */,
 			);
 			name = DataSource;
+			sourceTree = "<group>";
+		};
+		9688F98B1B90DCE1000B2A2E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9688F98C1B90DD14000B2A2E /* UIColor+HexColor.h */,
+				9688F98D1B90DD14000B2A2E /* UIColor+HexColor.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		9688F98F1B90E1D3000B2A2E /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				9688F9901B90E205000B2A2E /* CharacterListTableViewController.h */,
+				9688F9911B90E205000B2A2E /* CharacterListTableViewController.m */,
+				9688F9931B90E61C000B2A2E /* CharacterTableViewCell.h */,
+				9688F9941B90E61C000B2A2E /* CharacterTableViewCell.m */,
+				9688F9951B90E61C000B2A2E /* CharacterTableViewCell.xib */,
+				9688F9981B90EA77000B2A2E /* CharacterDetailViewController.h */,
+				9688F9991B90EA77000B2A2E /* CharacterDetailViewController.m */,
+				9688F99A1B90EA77000B2A2E /* CharacterDetailViewController.xib */,
+			);
+			name = Character;
+			sourceTree = "<group>";
+		};
+		A3ADC37AE7EA08950EF61921 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DDC7C8FF3EC55D529A07F03 /* libPods-FoxAnimationTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B6F72C1162F07A617F4392 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				148C710106D912AA5522242F /* Pods-FoxAnimationTests.debug.xcconfig */,
+				B9587EAA75540C952161DBA5 /* Pods-FoxAnimationTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96035E251B8E5A7B00D3400F /* Build configuration list for PBXNativeTarget "FoxAnimationTests" */;
 			buildPhases = (
+				808E7512D51A244446096B32 /* Check Pods Manifest.lock */,
 				96035DFB1B8E5A7B00D3400F /* Sources */,
 				96035DFC1B8E5A7B00D3400F /* Frameworks */,
 				96035DFD1B8E5A7B00D3400F /* Resources */,
+				20DB546F8520F510A20D0123 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +356,8 @@
 				96035E111B8E5A7B00D3400F /* Main.storyboard in Resources */,
 				96035E161B8E5A7B00D3400F /* LaunchScreen.xib in Resources */,
 				96035E131B8E5A7B00D3400F /* Images.xcassets in Resources */,
+				9688F99C1B90EA77000B2A2E /* CharacterDetailViewController.xib in Resources */,
+				9688F9971B90E61C000B2A2E /* CharacterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +370,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20DB546F8520F510A20D0123 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoxAnimationTests/Pods-FoxAnimationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		808E7512D51A244446096B32 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96035DFB1B8E5A7B00D3400F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -302,16 +410,21 @@
 			files = (
 				96035E4D1B8EB63D00D3400F /* ModalPageViewController.m in Sources */,
 				96035E471B8E81A400D3400F /* BasicPageCurlViewController.m in Sources */,
+				9688F99B1B90EA77000B2A2E /* CharacterDetailViewController.m in Sources */,
 				96035E441B8E816000D3400F /* BasicFlipViewController.m in Sources */,
 				96035E081B8E5A7B00D3400F /* AppDelegate.m in Sources */,
 				96035E501B8EB66A00D3400F /* ModalFormViewController.m in Sources */,
+				9688F98E1B90DD14000B2A2E /* UIColor+HexColor.m in Sources */,
 				96035E3B1B8E7DEA00D3400F /* BaseTransitionViewController.m in Sources */,
 				96035E321B8E786100D3400F /* TransitionItem.m in Sources */,
 				96035E0B1B8E5A7B00D3400F /* MasterViewController.m in Sources */,
+				9688F98A1B90DAF2000B2A2E /* BasicItem.m in Sources */,
 				96035E051B8E5A7B00D3400F /* main.m in Sources */,
 				96035E3E1B8E808100D3400F /* BasicModalViewController.m in Sources */,
+				9688F9921B90E205000B2A2E /* CharacterListTableViewController.m in Sources */,
 				96035E411B8E80E600D3400F /* BasicCrossDissolveViewController.m in Sources */,
 				96035E351B8E7C9200D3400F /* ReturnViewController.m in Sources */,
+				9688F9961B90E61C000B2A2E /* CharacterTableViewCell.m in Sources */,
 				96035E4A1B8E882300D3400F /* BaseModalTransitionViewController.m in Sources */,
 				96035E2F1B8E782800D3400F /* TransitionListDataSource.m in Sources */,
 				96035E0E1B8E5A7B00D3400F /* DetailViewController.m in Sources */,
@@ -441,6 +554,7 @@
 		};
 		96035E261B8E5A7B00D3400F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148C710106D912AA5522242F /* Pods-FoxAnimationTests.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FoxAnimationTests/Info.plist;
@@ -451,6 +565,7 @@
 		};
 		96035E271B8E5A7B00D3400F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9587EAA75540C952161DBA5 /* Pods-FoxAnimationTests.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FoxAnimationTests/Info.plist;

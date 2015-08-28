@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ReturnViewController : UIViewController
+#import "CharacterDetailViewController.h"
+
+@interface ReturnViewController : CharacterDetailViewController
 
 @end

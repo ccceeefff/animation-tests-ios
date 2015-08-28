@@ -24,9 +24,9 @@
     return @"This transition does a 3D flip transform between this and the view being presented.";
 }
 
-- (void)present:(id)sender
+- (void)presentCharacter:(BasicItem *)character
 {
-    UIViewController *controller = [self controllerToPresent];
+    UIViewController *controller = [self controllerToPresent:character];
     controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:controller animated:YES completion:nil];
 }

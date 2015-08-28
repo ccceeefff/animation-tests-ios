@@ -24,14 +24,14 @@
     return @"This transition does a 3D page curl transform between this and the view being presented.";
 }
 
-- (void)present:(id)sender
+- (void)presentCharacter:(BasicItem *)character
 {
     UIViewController *top = self;
     while(top.parentViewController != nil){
         top = top.parentViewController;
     }
     
-    UIViewController *controller = [self controllerToPresent];
+    UIViewController *controller = [self controllerToPresent:character];
     controller.modalTransitionStyle = UIModalTransitionStylePartialCurl;
     [top presentViewController:controller animated:YES completion:nil];
 }
