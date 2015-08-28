@@ -21,7 +21,7 @@
     
     self.title = [self transitionName];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Present"
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Details"
                                                                               style:UIBarButtonItemStylePlain
                                                                              target:self
                                                                              action:@selector(present:)];
@@ -48,7 +48,7 @@
 
 - (void)present:(id)sender
 {
-    
+    [[[UIAlertView alloc] initWithTitle:@"Animation Details" message:[self transitionDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
 }
 
 - (UIViewController *)controllerToPresent:(BasicItem *)character
