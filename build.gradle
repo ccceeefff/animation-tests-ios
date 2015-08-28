@@ -1,0 +1,26 @@
+buildscript {
+    repositories {
+        maven {
+            credentials {
+                username 'phunware-services'
+                password 'ph00sba11'
+            }
+            url "https://nexus.phunware.com/content/repositories/phunware-services-releases/"
+        }
+    }
+    dependencies {
+        classpath 'com.phunware.brandme.gradle:brandme-gradle-xcode-plugin:0.0.+'
+    }
+}
+ 
+apply plugin: 'com.phunware.brandme.xcode-plugin'
+  
+xcodebuild {
+    xcodeversion '6'
+    defaultConfig {
+        target 'FoxAnimationTests'
+        scheme 'FoxAnimationTests'
+        thirdPartyAttributions 'ThirdParty.txt'
+    }
+
+}
